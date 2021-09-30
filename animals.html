@@ -14,6 +14,19 @@
  <h1>Animals by Keerthana Ragut</h1>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light ">
+    <a class="navbar-brand" href="animals.html"><b>Interesting Animals</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="plane.html"><b>Plane Page</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="train.html"><b>Train Page</b></a></li>
+        </ul>
+      </div>
+  </nav>
+  
 <p>Letters pickedfrom my Last Name- R,A,G,U,T,K</p>
 <div class="Container">
     <div class ="row">
@@ -122,11 +135,75 @@
     </div>
 </nav>
 <br>
-<br>
-<br>
-  <br>
-  <br>
-  <br>
+
 </div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu" style="background-color:lightgrey" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item"  href="plane.html">Plane page</a></li>
+    <li><a class="dropdown-item"  href="train.html">Train page</a></li>
+  </ul>
+</div>
+<br>
+
+<form>
+  <div class="mb-3 form-group">
+    
+    <label for="exampleInputEmail1" class="form-label text-black">Email address</label>
+    <input type="email" class="form-control" placeholder="Email" required="" autofocus="" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text text-black">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3 form-group col-xs-4">
+    <label for="exampleInputAnimal" class="form-label text-black">Animal</label>
+    <input type="text" class="form-control" placeholder="Enter your animal" required="" autofocus=""  id="exampleInputAnimal">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label text-black" for="exampleCheck1">Sign up for newsletter?</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <br>
+  <br>
+</form>
+<!---Bonus-->
+<div class="container row">
+  <h2 class="text-white">Card Images</h2>
+  
+  <div class="card card bg-secondary text-black" style="width:400px">
+    <img class="card-img-top" src="rabbit.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Rabbit</h4>
+      <p class="card-text">Rabbits, or bunnies, are small mammals in the family Leporidae (along with the hare) of the order Lagomorpha (along with the pika).</p>
+      <a href="https://en.wikipedia.org/wiki/Rabbit" class="btn btn-primary">Check Info</a>
+    </div>
+  </div>
+ 
+ 
+  <div class="card card bg-secondary text-black" style="width:400px">
+    <img class="card-img-top" src="tiger.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Tiger</h4>
+      <p class="card-text">The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera.</p>
+      <a href="https://en.wikipedia.org/wiki/Tiger" class="btn btn-primary">Check Info</a>
+    </div>
+  </div>
+
+  
+  <div class="card card bg-secondary text-black" style="width:400px">
+    <img class="card-img-top" src="giraffe.jpeg" alt="Card image" style="width:100%">
+    <br>
+    <br>
+    <br>
+    <div class="card-body">
+      <h4 class="card-title">Giraffe</h4>
+      <p class="card-text">The giraffe (Giraffa) is an African artiodactyl mammal, the tallest living terrestrial animal and the largest ruminant. </p>
+      <a href="https://en.wikipedia.org/wiki/Giraffe" class="btn btn-primary">Check Info</a>
+    </div>
+  </div>
+</div>
+<br>
+
 </body>
 </html>
